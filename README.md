@@ -217,4 +217,5 @@ Run:
 ```
 python -c "import sys, torch; print(sys.executable); print(torch.__version__, torch.version.cuda, torch.cuda.is_available())"
 ```
+If python not found, try python3
 Should print the path to .venv/bin/python and your Torch info.
