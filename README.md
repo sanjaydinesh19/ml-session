@@ -215,8 +215,6 @@ Top-right → Select Kernel → choose Python (ml-session).
 Run:
 
 ```
-import sys, torch
-print(sys.executable)
-print(torch.__version__, torch.version.cuda, torch.cuda.is_available())
+python -c "import sys, torch; print(sys.executable); print(torch.__version__, torch.version.cuda, torch.cuda.is_available())"
 ```
 Should print the path to .venv/bin/python and your Torch info.
