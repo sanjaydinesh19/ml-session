@@ -10,7 +10,7 @@ This guide will walk you through:
 
 ---
 
-## 1. Install NVIDIA Driver (GPU Users only)
+## 1. Install NVIDIA Driver (GPU Users only) (Skip if already installed)
 Upgrade your system
 
 ```
